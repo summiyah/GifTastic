@@ -2,7 +2,7 @@ h1 {
     font-family: 'Ranchers', cursive;
     color: white;
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
  }
 
@@ -15,7 +15,7 @@ p {
 }
 
 .container {
-    width: 1000px;
+    width: 860px;
     background-image: url("../images/footer_lodyas.png");
     padding-left: 10em;
     padding-right: 10em;
@@ -58,4 +58,13 @@ button {
     border-color: white;
     border-style: solid;
 
+}
+
+img {
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid;
+    border-color: deeppink;
 }

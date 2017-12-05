@@ -32,6 +32,8 @@ $(document).on("click", "button", function () {
             console.log(response.data[i].images.original_still.url);
             console.log(response.data[i].images.original.url);
             // create new image tag for the images to be called to the page
+
+
             var newImage = $("<img>");
             newImage.attr("src", response.data[i].images.original_still.url);
             newImage.attr("data-original-url", response.data[i].images.original.url);
@@ -66,3 +68,5 @@ $("#addSearchBtn").on("click", function () {
     $(".container").prepend(newBtn);
 });
 
+// need to make images have the same style i.e. height
+// rating needs to be added to each image
