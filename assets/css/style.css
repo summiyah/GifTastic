@@ -29,23 +29,33 @@ button {
     width: 100px;
     height: 75px;
     background-color: deeppink;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
     border-color: white;
     border-style: solid;
 }
 
 #searchText {
-    width: 100px;
+    width: 150px;
     height: 25px;
+    font-family: "Ranchers", cursive;
+    font-size: 20px;
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
-}[]
+}
 
 #addSearchBtn {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    color: white;
     width: 100px;
-    height: 35px;
-    color: darkmagenta;
-    font-family: 'Ranchers', cursive;
+    height: 50px;
+    background-color: deeppink;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-color: white;
+    border-style: solid;
+
 }

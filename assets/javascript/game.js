@@ -65,3 +65,4 @@ $("#addSearchBtn").on("click", function () {
     // prepend to body
     $(".container").prepend(newBtn);
 });
+
