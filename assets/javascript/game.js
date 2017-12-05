@@ -34,12 +34,21 @@ $(document).on("click", "button", function () {
             // create new image tag for the images to be called to the page
 
 
-            var newImage = $("<img>");
+
+            var imageAndRating = $("<div>"); // create div
+            var rating = $("<p>"); // create paragraph inside div to contain both rating and image
+            rating.html("Rating: " + response.data[i].rating); // HTML rating
+
+            imageAndRating.append(rating); // append the rating and imageandrating div together
+
+
+            var newImage = $("<img>"); // create image tag for images to prepared to display
             newImage.attr("src", response.data[i].images.original_still.url);
             newImage.attr("data-original-url", response.data[i].images.original.url);
             newImage.attr("data-still-url", response.data[i].images.original_still.url);
+            imageAndRating.append(newImage);
             // add image to page
-            $("#images").append(newImage);
+            $("#images").append(imageAndRating); // OHHHHH YEAH it works time for BED!!
         }
     });
 });
