@@ -1,11 +1,41 @@
 h1 {
-     color: navy;
+     color: white;
      font-family: 'Cabin', sans-serif;
-     font-size: 35px;
-     background-color: #4aaaa5;
+     font-size: 40px;
+    align: center;
+    margin-top: 10px;
+    margin-left: 10px;
  }
 
 p {
     font-family: 'Cabin', sans-serif;
     font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;}
+
+.container {
+    width: 2000px;
+    background-image: url("../images/footer_lodyas.png");
+
+}
+
+button {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 75px;
+    background-color: deeppink;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+#searchText {
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }

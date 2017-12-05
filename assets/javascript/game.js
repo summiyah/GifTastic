@@ -10,7 +10,7 @@ $(document).on("click", "button", function () {
     var queryString = $.param({
         q: btnText,
         limit: 10,
-        rating: 'g',
+        rating: 'pg',
         api_key: APIKEY
     });
 
@@ -63,5 +63,5 @@ $("#addSearchBtn").on("click", function () {
     var searchText = $("#searchText").val();
     newBtn.text(searchText);
     // prepend to body
-    $("body").prepend(newBtn);
+    $(".container").prepend(newBtn);
 });
